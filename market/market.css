@@ -1,0 +1,234 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.market{
+    width: 360px;
+    height: 740px;
+    background-color: #fff;
+
+    margin-top: 80px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.user-name{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.temper{
+    font-size: 12px;
+    margin-left: 10px;
+    border-color: #000;
+    border-radius: 30px;
+    background-color: lightgray;
+}
+
+.time-text{
+    font-size: 12px;
+    color: gray;
+    margin-top: 0;
+    margin-left: 57px;
+}
+
+.second-header{
+    margin-right: 15px;
+}
+
+.header-hr{
+    color: rgb(199, 199, 199);
+    margin-top: 0;
+}
+
+/* nav */
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.item{
+    flex: 1 0 auto;
+}
+
+img{
+    width: 120px;
+    margin-left: 20px;
+}
+
+.item-text{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.item-price{
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-hr{
+    margin-top: 20px;
+    color: rgb(199, 199, 199);
+}
+
+/* main01 */
+
+.main01{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.time1{
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.text1{
+    font-size: 13px;
+    background-color: #ff6f0f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* main02 */
+
+.main02{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.user-face{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.text2 {
+    font-size: 13px;
+    background-color: #d6d5d4;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.time2{
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px
+}
+
+/* section */
+
+.section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.message-box{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #d6d5d4;
+    text-align: start;
+}
+
+.message-time{
+    margin-top: 20px;
+}
+
+.today{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.message-text{
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.message-alarm{
+    font-size: 13px;
+    color: #938e89;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* box */
+
+.guide-message{
+    background-color: #8bceeb;
+    margin-top: 70px;
+}
+
+.guide-text{
+    font-size: 14px;
+    padding: 20px;
+    color: #187196;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #d4cccc;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.plus-icon{
+    color: #7f7e7e;
+    font-size: 14px;
+    
+}
+
+.search{
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 30px;
+    width: 200px;
+}
+
+.send-icon{
+    color: #7f7e7e;
+    font-size: 14px;
+}
+
